@@ -1,6 +1,6 @@
 local mk1 = table.deepcopy(data.raw.technology["personal-roboport-equipment"]);
 mk1.name = "personal-roboport-equipment-nr";
-mk1.icon = "__Persoport-no-range__/graphics/technology/personal-roboport-equipment-nr.png";
+mk1.icon = "__Personal-Roboport-No-Range__/graphics/technology/personal-roboport-equipment-nr.png";
 mk1.prerequisites = {"personal-roboport-equipment"};
 mk1.effects = {{
     type = "unlock-recipe",
@@ -9,7 +9,7 @@ mk1.effects = {{
 
 local mk2 = table.deepcopy(data.raw.technology["personal-roboport-equipment-2"]);
 mk2.name = "personal-roboport-equipment-nr-2";
-mk2.icon = "__Persoport-no-range__/graphics/technology/personal-roboport-equipment-nr.png";
+mk2.icon = "__Personal-Roboport-No-Range__/graphics/technology/personal-roboport-equipment-nr.png";
 mk2.prerequisites = {"personal-roboport-equipment-nr"};
 mk2.effects = {{
     type = "unlock-recipe",
