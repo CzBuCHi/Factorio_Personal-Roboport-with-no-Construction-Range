@@ -1,0 +1,10 @@
+{
+  "name": "Personal-Roboport-No-Range",
+  "version": "0.0.1",
+  "title": "Personal Roboport with no Construction Range",
+  "author": "CzBuCHi",
+  "Licence": "MIT",
+  "description": "Adds a Personal Roboport without range",
+  "dependencies": ["base >= 0.16.0"],
+  "factorio_version": "0.16"
+}
