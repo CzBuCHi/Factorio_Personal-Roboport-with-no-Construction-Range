@@ -6,14 +6,32 @@ mk1.effects = {{
     type = "unlock-recipe",
     recipe = "personal-roboport-equipment-nr"   
 }};
+mk1.unit = {
+    count = 30,
+    ingredients = {
+	    {"science-pack-1", 1},
+	    {"science-pack-2", 1},
+    },
+    time = 30,
+};
+	
 
 local mk2 = table.deepcopy(data.raw.technology["personal-roboport-equipment-2"]);
 mk2.name = "personal-roboport-equipment-nr-2";
 mk2.icon = "__Personal-Roboport-No-Range__/graphics/technology/personal-roboport-equipment-nr.png";
-mk2.prerequisites = {"personal-roboport-equipment-nr"};
+mk2.prerequisites = {"personal-roboport-equipment-nr", "personal-roboport-equipment-2"};
 mk2.effects = {{
     type = "unlock-recipe",
     recipe = "personal-roboport-mk2-equipment-nr"   
 }};
+mk2.unit = {
+    count = 30,
+    ingredients = {
+	    {"science-pack-1", 1},
+	    {"science-pack-2", 1},
+		{"science-pack-3", 1},
+    },
+    time = 30,
+};
 
 data:extend{mk1,mk2};
