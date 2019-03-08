@@ -9,8 +9,8 @@ mk1.effects = {{
 mk1.unit = {
     count = 30,
     ingredients = {
-	    {"science-pack-1", 1},
-	    {"science-pack-2", 1},
+	    {"automation-science-pack", 1},
+	    {"logistic-science-pack", 1},
     },
     time = 30,
 };
@@ -27,9 +27,9 @@ mk2.effects = {{
 mk2.unit = {
     count = 30,
     ingredients = {
-	    {"science-pack-1", 1},
-	    {"science-pack-2", 1},
-		{"science-pack-3", 1},
+	    {"automation-science-pack", 1},
+	    {"logistic-science-pack", 1},
+		{"chemical-science-pack", 1},
     },
     time = 30,
 };
