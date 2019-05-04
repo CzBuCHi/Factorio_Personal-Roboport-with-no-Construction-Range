@@ -16,10 +16,10 @@ mk1.unit = {
 };
 	
 
-local mk2 = table.deepcopy(data.raw.technology["personal-roboport-equipment-2"]);
+local mk2 = table.deepcopy(data.raw.technology["personal-roboport-mk2-equipment"]);
 mk2.name = "personal-roboport-equipment-nr-2";
 mk2.icon = "__Personal-Roboport-No-Range__/graphics/technology/personal-roboport-equipment-nr.png";
-mk2.prerequisites = {"personal-roboport-equipment-nr", "personal-roboport-equipment-2"};
+mk2.prerequisites = {"personal-roboport-equipment-nr", "personal-roboport-mk2-equipment"};
 mk2.effects = {{
     type = "unlock-recipe",
     recipe = "personal-roboport-mk2-equipment-nr"   
@@ -35,3 +35,4 @@ mk2.unit = {
 };
 
 data:extend{mk1,mk2};
+
